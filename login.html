@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contraseña</title>
+    <title>Login</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 :root {
        --white:#ffff;
        --black:#000000; 
-       --very-ligth-pink: #C3B091 ;
+       --very-ligth-pink: #887a64 ;
        --text-input-field: #C3B091 ;
        --hospital-green: #678983;
        --sm: 14px;
@@ -61,6 +61,8 @@ display: none;
     margin-top: 0;
     margin-bottom: 32px;
     text-align: center;
+    color: rgb(197, 61, 61);
+  text-decoration: none;
 }
 
 .from{
@@ -117,16 +119,17 @@ height: 50px;
         <img src="./Img/Platzi_YardSale_Logos-20211219T050327Z-001/Platzi_YardSale_Logos/logo_yard_sale.svg" alt="" class="logo">
     </div>
     <div id="login_conten">
-        <h1 class="titulo">Crea una nueva contraseña</h1>
-        <p class="subtitulo">Ingresa un nuevo pass para tu cuenta</p>
         <form action="" class="from">
-          <label for="password" class="label"> Password </label>
-             <input type="password" id="password" placeholder="*******" class="input input_pass">
-             <label for="re_password" class="label"> Password </label>
+          <label for="email" class="label"> Direccion de Email </label>
+             <input type="email" id="email" placeholder="Ejemplo@gmail.com" class="input input_pass">
+             <label for="re_password" class="label"> Re-password </label>
              <input type="password" id="re_password" placeholder="*******" class="input input_pass">
-             <input type="submit" value="Confirm" class="primary_boton login_button">
+            <input type="submit" value="Confirm" class="primary_boton login_button">
             </form>
     </div>
+    <a href="/" class="subtitulo">Olvidaste tu password</a>
+
+
 </div>
 </div> 
 </body>
