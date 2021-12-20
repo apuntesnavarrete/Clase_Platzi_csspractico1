@@ -57,7 +57,7 @@ display: none;
 }
 .subtitulo{
     color: var(--very-ligth-pink);
-    font-size: var(--md);
+    font-size: var(--sm);
     margin-top: 0;
     margin-bottom: 32px;
     text-align: center;
@@ -102,10 +102,27 @@ height: 50px;
     margin-bottom: 30px;
 }
 
+.button_bootom{
+    background-color: #f2e5d2;
+    border-radius: 8px;
+    border-color: #c3b091 ;
+    color: #554834;
+width: 300px;
+cursor: pointer;
+font-size: var(--md);
+font-weight: bold;
+height: 50px;
+}
+
 @media (max-width: 640px) {
     .logo {
         display: block;
     }
+
+    .button_bootom{
+        margin-top: 100px;
+    }
+
 }
     </style>
 
@@ -128,9 +145,11 @@ height: 50px;
             </form>
     </div>
     <a href="/" class="subtitulo">Olvidaste tu password</a>
+    <button value="Sing up" class="button_bootom">Sing up </button>
 
 
 </div>
+
 </div> 
 </body>
 </html>
