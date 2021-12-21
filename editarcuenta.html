@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crear cuenta</title>
+    <title>Editar cuenta</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -77,7 +77,7 @@ display: none;
 
 }
 .input{
-    background-color: var(--text-input-field);
+    background-color:#FFE6BC ;
     border: none;
     border-radius: 8px;
     height: 30px;
@@ -105,9 +105,9 @@ height: 50px;
 .button_bootom{
     background-color: var(--hospital-green);
     border-radius: 8px;
-    border-color: #c3b091 ;
-    color: #eeedeb;
-width: 300px;
+    border:none;
+    color: var(--white);
+width: 100%;
 cursor: pointer;
 font-size: var(--md);
 font-weight: bold;
@@ -140,9 +140,18 @@ height: 50px;
 
 
     <div id="login_conten">
-        
+        <form action="" class="from">
+            <label for="Nombre" class="label"> Nombre </label>
+            <input type="text" id="Nombre" placeholder="Erik Navarrete" class="input input_pass">
+
+
+          <label for="email" class="label"> Email </label>
+             <input type="email" id="email" placeholder="Ejemplo@gmail.com" class="input input_pass">
+             <label for="re_password" class="label"> Re-password </label>
+             <input type="password" id="re_password" placeholder="*******" class="input input_pass">
+            </form>
     </div>
-    <button value="Sing up" class="button_bootom">Save </button>
+    <button value="Sing up" class="button_bootom">Editar </button>
 
 
 </div>
