@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Crear cuenta</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,7 +53,7 @@ display: none;
 .titulo{
     font-size: var(--lg);
     margin-bottom: 12px;
-    text-align: center;
+    text-align: left;
 }
 .subtitulo{
     color: var(--very-ligth-pink);
@@ -103,10 +103,10 @@ height: 50px;
 }
 
 .button_bootom{
-    background-color: #f2e5d2;
+    background-color: var(--hospital-green);
     border-radius: 8px;
     border-color: #c3b091 ;
-    color: #554834;
+    color: #eeedeb;
 width: 300px;
 cursor: pointer;
 font-size: var(--md);
@@ -136,20 +136,22 @@ height: 50px;
         <img src="./Img/Platzi_YardSale_Logos-20211219T050327Z-001/Platzi_YardSale_Logos/logo_yard_sale.svg" alt="" class="logo">
     </div>
 
-    <h1 class="titulo">Mi cuenta</h1>
+    <h1 class="titulo">Mi Cuenta</h1>
 
 
     <div id="login_conten">
         <form action="" class="from">
-          <label for="email" class="label"> Direccion de Email </label>
+            <label for="Nombre" class="label"> Nombre </label>
+            <input type="text" id="Nombre" placeholder="Erik Navarrete" class="input input_pass">
+
+
+          <label for="email" class="label"> Email </label>
              <input type="email" id="email" placeholder="Ejemplo@gmail.com" class="input input_pass">
              <label for="re_password" class="label"> Re-password </label>
              <input type="password" id="re_password" placeholder="*******" class="input input_pass">
-            <input type="submit" value="Confirm" class="primary_boton login_button">
             </form>
     </div>
-    <a href="/" class="subtitulo">Olvidaste tu password</a>
-    <button value="Sing up" class="button_bootom">Sing up </button>
+    <button value="Sing up" class="button_bootom">Save </button>
 
 
 </div>
